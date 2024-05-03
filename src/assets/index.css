@@ -4,7 +4,7 @@
 
 @layer utilities {
   * {
-    @apply outline-0;
+    @apply outline-0 duration-700;
   }
   .heading {
     @apply text-[#c69963];
@@ -16,7 +16,7 @@
     @apply rounded-full h-16;
   }
   .btn {
-    @apply bg-[#c69963] rounded px-6 py-3 inline-block text-sm;
+    @apply bg-[#c69963] px-6 py-3 inline-block text-sm;
   }
   .logos {
     @apply flex justify-around relative;
@@ -30,12 +30,15 @@
     @apply content-[""] h-[1px] block bg-current;
   }
   .icon {
-    @apply fill-[#c69963];
+    @apply fill-[#c69963] h-6 w-6;
   }
   .feature-icon {
     @apply w-10 h-10 -translate-y-2;
   }
   .story-img {
     @apply rounded-lg shadow-2xl;
+  }
+  .card {
+    @apply my-auto bg-[#f9f7f6] rounded-md overflow-hidden relative hover:shadow-2xl;
   }
 }
