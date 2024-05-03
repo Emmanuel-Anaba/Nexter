@@ -6,4 +6,16 @@
   * {
     @apply outline-0;
   }
+  .heading {
+    @apply text-[#c69963];
+  }
+  .realtor {
+    @apply flex gap-4 place-items-center shadow-inner;
+  }
+  .realtor img {
+    @apply rounded-full h-16;
+  }
+  .btn {
+    @apply bg-[#c69963] rounded px-4 py-2 inline-block;
+  }
 }
