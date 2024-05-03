@@ -18,4 +18,15 @@
   .btn {
     @apply bg-[#c69963] rounded px-4 py-2 inline-block;
   }
+  .logos {
+    @apply flex justify-around relative;
+  }
+  .seen {
+    @apply grid gap-4 items-center text-[#aaa];
+    grid-template-columns: 1fr max-content 1fr;
+  }
+  .seen::after,
+  .seen::before {
+    @apply content-[""] h-[1px] block bg-current;
+  }
 }
