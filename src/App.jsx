@@ -138,7 +138,7 @@ const App = () => {
             distinctio necessitatibus pariatur voluptatibus. Quidem consequatur
             harum volupta!
           </p>
-          <a href="#" className="btn mr-auto">
+          <a href="#" className="btn mr-auto rounded">
             FIND YOUR OWN HOME
           </a>
         </div>

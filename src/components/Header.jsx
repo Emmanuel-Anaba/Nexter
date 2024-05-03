@@ -57,7 +57,7 @@ const Header = () => {
         <div className="grid gap-4">
           <p className="heading">YOUR OWN HOME:</p>
           <p className="text-5xl">The ultimate personal freedom</p>
-          <a href="#" className="btn mr-auto">
+          <a href="#" className="btn mr-auto rounded">
             VIEW OUR PROPERTIES
           </a>
         </div>
