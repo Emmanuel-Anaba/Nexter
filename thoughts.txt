@@ -1,8 +1,0 @@
-SECTIONS
--> Header
--> Features
--> Testimonial
--> Homes
--> Gallery
-
-What is the equivalent for flex-row-reverse in grid
