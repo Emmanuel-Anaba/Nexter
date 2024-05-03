@@ -57,9 +57,9 @@ const App = () => {
           </div>
         ))}
       </Section>
-      <Section className="grid md:grid-cols-2">
+      <Section className="flex flex-col-reverse md:flex-row">
         <div
-          className="relative p-12 md:p-20 bg-center bg-cover"
+          className="relative p-12 md:p-20 bg-center bg-cover w-full"
           style={{
             backgroundImage: `linear-gradient(rgba(198, 153, 99, 0.5), rgba(198, 153, 99, 0.5)), url(${storybg})`,
           }}>
@@ -70,8 +70,8 @@ const App = () => {
             alt=""
           />
         </div>
-        <div className="bg-[#f9f7f6]">
-          <p className="text-[#54483a]">“The best decision of our lives”</p>
+        <div className="bg-[#f9f7f6] w-full grid gap-8 md:gap-0 p-12 md:p-20 place-content-evenly">
+          <p className="text-[#54483a] text-4xl italic">“The best decision of our lives”</p>
           <p className="text-[#6d5d4b]">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur
             distinctio necessitatibus pariatur voluptatibus. Quidem consequatur
