@@ -29,14 +29,13 @@
   .seen::before {
     @apply content-[""] h-[1px] block bg-current;
   }
-  .icon{
+  .icon {
     @apply fill-[#c69963];
-    /* width: 4.5rem;
-    height: 4.5rem;
-    grid-row: 1 / span 2;
-    transform: translateY(-1rem); */
   }
-  .feature-icon{
+  .feature-icon {
     @apply w-10 h-10 -translate-y-2;
+  }
+  .story-img {
+    @apply rounded-lg shadow-2xl;
   }
 }
