@@ -1,0 +1,6 @@
+SECTIONS
+-> Header
+-> Features
+-> Testimonial
+-> Homes
+-> Gallery
