@@ -14,7 +14,7 @@ const Footer = () => {
           <a
             key={i}
             href="#"
-            className="uppercase hover:bg-[#ffffff0d] hover:-translate-y-1 text-center grid place-items-center py-2 lg:px-6">
+            className="col-span-2 md:col-span-1 uppercase hover:bg-[#ffffff0d] hover:-translate-y-1 text-center grid place-items-center py-2 lg:px-6">
             {item}
           </a>
         ))}

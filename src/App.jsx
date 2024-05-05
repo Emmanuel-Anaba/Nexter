@@ -103,7 +103,7 @@ const App = () => {
       <Header />
       <Section className="grid w-[90%] lg:w-5/6 mx-auto py-20 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
         {features.map(({ icon, h, p }) => (
-          <div key={h} className="grid grid-flow-col gap-4 my-auto">
+          <div key={h} className="grid grid-flow-col gap-4 mb-auto">
             <svg className="icon feature-icon">
               <use href={`${svg}#${icon}`}></use>
             </svg>
