@@ -1,12 +1,12 @@
-import img from "../assets/img/hero.jpeg";
-import realtor1 from "../assets/img/realtor-1.jpeg";
-import realtor2 from "../assets/img/realtor-2.jpeg";
-import realtor3 from "../assets/img/realtor-3.jpeg";
-import logo from "../assets/img/logo.png";
-import bbc from "../assets/img/logo-bbc.png";
-import forbes from "../assets/img/logo-forbes.png";
-import techcrunch from "../assets/img/logo-techcrunch.png";
-import bi from "../assets/img/logo-bi.png";
+import img from "../assets/img/hero.webp";
+import realtor1 from "../assets/img/realtor-1.webp";
+import realtor2 from "../assets/img/realtor-2.webp";
+import realtor3 from "../assets/img/realtor-3.webp";
+import logo from "../assets/img/logo.webp";
+import bbc from "../assets/img/logo-bbc.webp";
+import forbes from "../assets/img/logo-forbes.webp";
+import techcrunch from "../assets/img/logo-techcrunch.webp";
+import bi from "../assets/img/logo-bi.webp";
 
 const Header = () => {
   const realtors = [

@@ -3,15 +3,15 @@ import Header from "./components/Header";
 import Section from "./components/Section";
 import Footer from "./components/Footer";
 import svg from "./assets/img/sprite.svg";
-import story1 from "./assets/img/story-1.jpeg";
-import story2 from "./assets/img/story-2.jpeg";
-import storybg from "./assets/img/back.jpg";
-import home1 from "./assets/img/house-1.jpeg";
-import home2 from "./assets/img/house-2.jpeg";
-import home3 from "./assets/img/house-3.jpeg";
-import home4 from "./assets/img/house-4.jpeg";
-import home5 from "./assets/img/house-5.jpeg";
-import home6 from "./assets/img/house-6.jpeg";
+import story1 from "./assets/img/story-1.webp";
+import story2 from "./assets/img/story-2.webp";
+import storybg from "./assets/img/back.webp";
+import home1 from "./assets/img/house-1.webp";
+import home2 from "./assets/img/house-2.webp";
+import home3 from "./assets/img/house-3.webp";
+import home4 from "./assets/img/house-4.webp";
+import home5 from "./assets/img/house-5.webp";
+import home6 from "./assets/img/house-6.webp";
 
 const App = () => {
   const features = [
@@ -151,7 +151,7 @@ const App = () => {
             <svg className="icon absolute top-4 right-4">
               <use href={`${svg}#icon-heart-full`}></use>
             </svg>
-            <img src={img} alt={name} />
+            <img className="w-full" src={img} alt={name} />
             <div className="grid grid-cols-2 p-8 pt-12 gap-8 text-[#6d5d4b] relative text-sm">
               <div className="bg-[#101d2c] text-base text-white py-3 px-7 absolute left-1/2 -translate-x-1/2 w-[70%] -translate-y-[50%] text-center rounded">
                 {name}
