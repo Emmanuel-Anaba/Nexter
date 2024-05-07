@@ -145,9 +145,7 @@ const App = () => {
       </Section>
       <Section className="grid w-[90%] lg:w-5/6 mx-auto py-20 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
         {homes.map(({ img, name, location, rooms, area, price }, i) => (
-          <div
-            key={i}
-            className="card">
+          <div key={i} className="card">
             <svg className="icon absolute top-4 right-4">
               <use href={`${svg}#icon-heart-full`}></use>
             </svg>
